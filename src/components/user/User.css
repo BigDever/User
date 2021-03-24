@@ -1,0 +1,32 @@
+.user {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 585px;
+    margin: 100px auto;
+
+}
+.avatar {
+    margin: auto;
+    position: relative;
+    padding: 10px;
+    height: 170px;
+    background-color: #fff;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+.avatar img {
+    width: 200px;
+    height: 150px;
+}
+.info {
+    position: relative;
+    margin: 0 auto;
+    padding: 20px 20px 20px 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    height: 300px;
+    width: 300px;
+}
+.info h4 {
+    margin-bottom: 30px;
+}
