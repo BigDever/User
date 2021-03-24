@@ -14,7 +14,7 @@ const UserContainer = () => {
       const info = await getInfoAPI();
       const infoJson = await info.json();
       console.log(infoJson);
-      setUserInfo(infoJson.map(item => ({...item})));
+      setUserInfo(infoJson);
     }
     catch (e) {
       console.log(e)
